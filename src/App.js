@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import TodoList from './Views/Todo_List/Todo_List';
 import axios from 'axios';
-import './Views/Pokemoncards/pokemoncards';
+import './Views/Pokemoncards/PokemonCards';
 
 class App extends Component {
   componentDidMount(){

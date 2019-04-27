@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import './Views/Pokemonlist/Pokemonlist.css';
 import PokemonCard from './Views/Pokemoncards/PokemonCard';
 import axios from 'axios';
-
-import React, {Component} from 'react'
-import PokemonCard from './Components/PokemonCard/PokemonCard';
-import axios from 'axios';
 import './PokemonList.css';
 const baseUrl = 'https://pokeapi.co/api/v2/'
 
