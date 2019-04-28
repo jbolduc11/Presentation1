@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './pokemoncards.css';
-import PokemonList from './Views/PokemonList/PokemonList'
+import '.Views/Pokemoncards/pokemoncards.css';
+import Pokemonlist from './Views/Pokemonlist/PokemonList';
 import axios from 'axios';
 
 export default (props) => {
@@ -15,4 +15,4 @@ export default (props) => {
       </div>
   )
 }
-export default Pokemoncards;
+
