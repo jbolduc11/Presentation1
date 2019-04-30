@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '.Views/Pokemoncards/pokemoncards.css';
-import Pokemonlist from './Views/Pokemonlist/PokemonList';
+import Pokemonlist from './src/Views/Pokemonlist/PokemonList';
 import axios from 'axios';
 
 export default (props) => {
