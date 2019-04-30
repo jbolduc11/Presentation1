@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import TodoList from './Views/Todo_List/Todo_List';
 import axios from 'axios';
 import './Views/Pokemoncards/PokemonCards';
+import './Views/Pokemonlist/PokemonList';
 
 class App extends Component {
   componentDidMount(){
@@ -21,3 +21,4 @@ class App extends Component {
 }
 
 export default App;
+ 

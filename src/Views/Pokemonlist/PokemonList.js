@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import './Pokemonlist.css';
-import PokemonCard from './Views/Pokemoncards/Pokemoncards';
+import './pokemonlist.css';
+import PokemonCards from '../Pokemoncards/PokemonCards';
 import axios from 'axios';
-import './PokemonList.css';
 const baseUrl = 'https://pokeapi.co/api/v2/'
 
 class PokemonList extends Component{
@@ -35,7 +34,7 @@ class PokemonList extends Component{
     }
     render(){
         const pokemonCards = this.state.pokemon.map((e)=>{
-            return  <PokemonCard key={e.id} release={this.release} pokemon={e}/>
+            return  <PokemonCards key={e.id} release={this.release} pokemon={e}/>
         })
         return (
             <div className="Poke_list">

@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import '.Views/Pokemoncards/pokemoncards.css';
-import Pokemonlist from './src/Views/Pokemonlist/PokemonList';
-import axios from 'axios';
+import React from 'react';
+import './pokemoncards.css';
+// import Pokemonlist from '../Pokemonlist/PokemonList';
+// import axios from 'axios';
 
-export default (props) => {
+const card = (props) => {
   const [firstLetter, ...arr] = props.pokemon.name.split('')
   const name = `${firstLetter.toUpperCase()}${arr.join('')}`
   return (
@@ -16,3 +16,4 @@ export default (props) => {
   )
 }
 
+export default card
