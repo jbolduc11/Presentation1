@@ -20,5 +20,13 @@ class App extends Component {
   }
 }
 
+function Tester() {
+  return (
+    <div className= "Tester">
+      <Tester/>
+    </div>
+  )
+}
+
 export default App;
  
