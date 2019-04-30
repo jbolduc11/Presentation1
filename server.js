@@ -32,6 +32,7 @@ app.get('/api/getPokemon', (req, res, next)=>{
     getPokemon();
   })
 
+  
 app.get('/api/pokemon', (req,res,next) => {
     res.send(todos)
 })
