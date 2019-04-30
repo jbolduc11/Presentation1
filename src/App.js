@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import './App.css';
 import axios from 'axios';
-import './Views/Pokemoncards/PokemonCards';
+import card from './Views/Pokemoncards/PokemonCards';
 import './Views/Pokemonlist/PokemonList';
 
 class App extends Component {
   componentDidMount(){
-    axios.get('/api/test')
+    axios.get('/api/getPokemon')
       .then((res)=>{
         console.log(res.data)
       })
@@ -14,19 +14,12 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <pokemoncards/>
+        <card/>
       </div>
     );
   }
 }
 
-function Tester() {
-  return (
-    <div className= "Tester">
-      <Tester/>
-    </div>
-  )
-}
 
 export default App;
  
