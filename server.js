@@ -18,7 +18,7 @@ app.get('/api/getPokemon', (req, res, next)=>{
         if(caught){
             axios.get(`https://pokeapi.co/api/v2/pokemon/${num}`).then(resp => {
               pokemon.push(resp.data)
-              if(num !== 149){
+              if(num !== 150){
                 num++
                 getPokemon()
               } else {
