@@ -11,7 +11,7 @@ const card = (props) => {
           <h4>{name}</h4>
           <div className="image" style={{backgroundImage:`url(${props.pokemon.sprites.front_default})`}}>
           </div>
-          <button onClick = {()=>{props.release(props.pokemon.id)}}>Release</button>
+          <button onClick = {()=>{props.release(props.pokemon.id)}}>Catch</button>
       </div>
   )
 }
