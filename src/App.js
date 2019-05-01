@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
 import axios from 'axios';
-import card from './Views/Pokemoncards/PokemonCards';
+//import PokemonCards from './Views/Pokemoncards/PokemonCards';
 import './Views/Pokemonlist/PokemonList';
+import PokemonList from './Views/Pokemonlist/PokemonList';
 
 class App extends Component {
   componentDidMount(){
@@ -14,7 +15,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <card/>
+        <PokemonList/>
       </div>
     );
   }
