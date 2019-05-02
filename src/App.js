@@ -4,6 +4,7 @@ import axios from 'axios';
 //import PokemonCards from './Views/Pokemoncards/PokemonCards';
 import './Views/Pokemonlist/PokemonList';
 import PokemonList from './Views/Pokemonlist/PokemonList';
+// import PokemonSearch from './Views/PokemonSearch/PokemonSearch';
 
 class App extends Component {
   componentDidMount(){
@@ -16,6 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <PokemonList/>
+        {/* <PokemonSearch/> */}
       </div>
     );
   }
