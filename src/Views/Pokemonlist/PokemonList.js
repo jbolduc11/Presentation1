@@ -14,7 +14,7 @@ class PokemonList extends Component{
 
     componentDidMount(){
         const pokePromises =[];
-        for(let i = 1; i<=150; i++){
+        for(let i = 1; i<=200; i++){
             pokePromises.push(axios.get(`${baseUrl}pokemon/${i}`))
         }
         Promise.all(pokePromises)
